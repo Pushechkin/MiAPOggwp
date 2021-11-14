@@ -3,7 +3,8 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-	background-color: mediumpurple;
+	background-color: #D1D0CE;
+	color: #1589FF;
 	height: 60px;
 	font-family: Arial;
     font-size: 20px;
@@ -11,33 +12,173 @@ header{
 
 a{
 	text-decoration: none;
+	color: #1589FF;
 }
 a:hover{
 	text-decoration: underline;
+	color: green;
 }
 
 .Glavnaya{
 	position: absolute;
 	top: 28%;
-    left: 2%;
-}
-.Kontaktu{
-	position: absolute;
-	top: 28%;
-    left: 9%;
-}
-.Lichnui_kabinet{
-	position: absolute;
-	top: 28%;
-    left: 17%;
-}
-.Yslygi{
-	position: absolute;
-	top: 28%;
-    left: 29%;
+    left: 4%;
 }
 .Voiti{
 	position: absolute;
 	top: 28%;
-    left: 93%;
+    left: 11%;
+}
+.Kontaktu{
+	position: absolute;
+	top: 28%;
+    left:17%;
+}
+.Lichnui_kabinet{
+	position: absolute;
+	top: 28%;
+    left: 25%;
+}
+.Yslygi{
+	position: absolute;
+	top: 28%;
+    left: 37%;
+}
+.Telephone{
+	position: absolute;
+	top: 34%;
+    left: 72%;
+    font-size: 16px;
+}
+
+.btn{
+	cursor: pointer;
+	position: absolute;
+	top: 15%;
+    left: 92%;
+    height: 40px;
+    weight: 60px;
+    background-color: #57FEFF;
+    border: 2px solid #57FEFF;
+}
+.btn:hover{
+	background-color: #3BB9FF;
+	border: 2px solid #3BB9FF;
+}
+
+ .logo_pic{
+ 	position: absolute;
+	top: 9%;
+    left: 25px;
+    height: 45px;
+    weight: 40px;
+ }
+
+.slider {
+  position: relative;
+  width: 680px;
+  margin: 180px auto;
+  box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.5);
+}
+
+.slider input[name="switch"] {
+  display: none;
+}
+
+.switch {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+
+.switch label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  border: 5px solid #2f363c;
+  background-color: #738290;
+}
+
+#btn1:checked~.switch label[for="btn1"] {
+  background-color: white;
+}
+
+#btn2:checked~.switch label[for="btn2"] {
+  background-color: white;
+}
+
+#btn3:checked~.switch label[for="btn3"] {
+  background-color: white;
+}
+
+.slider-inner {
+  overflow: hidden;
+}
+
+.slides {
+  width: 300%;
+  transition: all 0.5s;
+}
+
+.slides img {
+  width: 680px;
+  height: 340px;
+  float: left;
+}
+
+#btn1:checked~slider-inner slides {
+  transform: translate(0);
+}
+
+#btn2:checked~.slider-inner .slides {
+  transform: translate(-680px);
+}
+
+#btn3:checked~.slider-inner .slides {
+  transform: translate(-1360px);
+}
+
+.email_form{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #D1D0CE;
+  color: #1589FF;
+  height: 60px;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.name{
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+}
+
+.email{
+  position: absolute;
+  left: 70%;
+  bottom: 10%;
+}
+
+.btn_email{
+  cursor: pointer;
+  position: absolute;
+  left: 92%;
+  bottom: 10%;
+  height: 40px;
+  weight: 60px;
+  background-color: #57FEFF;
+  border: 2px solid #57FEFF;
+}
+.btn_email:hover{
+  background-color: #3BB9FF;
+  border: 2px solid #3BB9FF;
 }
