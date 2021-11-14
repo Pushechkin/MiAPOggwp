@@ -1,10 +1,14 @@
+body{
+  background-image: url(../pictures/oboi.jpg) !important;
+
+}
+
 header{
 	position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-	background-color: #D1D0CE;
-	color: #1589FF;
+  top: 0;
+  left: 0;
+  width: 100%;
+	color: #fff;  
 	height: 60px;
 	font-family: Arial;
     font-size: 20px;
@@ -12,73 +16,74 @@ header{
 
 a{
 	text-decoration: none;
-	color: #1589FF;
+	color: #fff;
 }
 a:hover{
-	text-decoration: underline;
-	color: green;
+	text-decoration: none;
+	color: #00F9DA;
 }
 
 .Glavnaya{
 	position: absolute;
 	top: 28%;
-    left: 4%;
+  left: 9%;
 }
 .Voiti{
 	position: absolute;
 	top: 28%;
-    left: 11%;
+  left: 16%;
 }
 .Kontaktu{
 	position: absolute;
 	top: 28%;
-    left:17%;
+  left:22%;
 }
 .Lichnui_kabinet{
 	position: absolute;
 	top: 28%;
-    left: 25%;
+  left: 30%;
 }
 .Yslygi{
 	position: absolute;
 	top: 28%;
-    left: 37%;
+  left: 42%;
 }
 .Telephone{
 	position: absolute;
-	top: 34%;
-    left: 72%;
-    font-size: 16px;
+	top: 38%;
+  left: 72%;
+  font-size: 16px;
 }
 
 .btn{
 	cursor: pointer;
 	position: absolute;
-	top: 15%;
-    left: 92%;
-    height: 40px;
-    weight: 60px;
-    background-color: #57FEFF;
-    border: 2px solid #57FEFF;
+	top: 20%;
+  left: 92%;
+  height: 40px;
+  weight: 60px;
+  background-color: #00F9DA;
+  border: 1px solid #00F9DA;
 }
 .btn:hover{
-	background-color: #3BB9FF;
-	border: 2px solid #3BB9FF;
+	background-color: #83F7E2;
+	border: 1px solid #83F7E2;
 }
 
  .logo_pic{
  	position: absolute;
 	top: 9%;
-    left: 25px;
-    height: 45px;
-    weight: 40px;
+  left: 25px;
+  height: 45px;
+  weight: 40px;
  }
 
 .slider {
   position: relative;
   width: 680px;
-  margin: 180px auto;
+  margin: 150px auto;
   box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.5);
+  border: 5px solid #363E44;
 }
 
 .slider input[name="switch"] {
@@ -128,7 +133,7 @@ a:hover{
 
 .slides img {
   width: 680px;
-  height: 340px;
+  height: 360px;
   float: left;
 }
 
@@ -149,36 +154,48 @@ a:hover{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #D1D0CE;
-  color: #1589FF;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  color: #fff;
   height: 60px;
   font-family: Arial;
   font-size: 20px;
 }
 
+.text_email{
+  position: absolute;
+  bottom: 30%;
+  left: 15%;
+}
+
 .name{
   position: absolute;
-  left: 50%;
-  bottom: 10%;
+  left: 48%;
+  bottom: 20%;
+  height: 30px;
+  border: 1px solid #999;
+  border-radius: 5px;
 }
 
 .email{
   position: absolute;
-  left: 70%;
-  bottom: 10%;
+  left: 61%;
+  bottom: 20%;
+  height: 30px;
+  border: 1px solid #999;
+  border-radius: 5px;
 }
 
 .btn_email{
   cursor: pointer;
   position: absolute;
-  left: 92%;
-  bottom: 10%;
-  height: 40px;
-  weight: 60px;
-  background-color: #57FEFF;
-  border: 2px solid #57FEFF;
+  left: 74%;
+  bottom: 13%;
+  height: 42px;
+  weight: 70px;
+  background-color: #FAB2FC;
+  border: 2px solid #FAB2FC;
 }
 .btn_email:hover{
-  background-color: #3BB9FF;
-  border: 2px solid #3BB9FF;
+  background-color: #FCCBFC;
+  border: 2px solid #FCCBFC;
 }
