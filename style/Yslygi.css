@@ -1,1 +1,106 @@
-Кто прочитал - тот не какашка
+body{
+  background-image: url(../pictures/oboi.jpg) !important;
+
+}
+
+header{
+	position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+	color: #fff;  
+	height: 60px;
+	font-family: Arial;
+    font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+	color: #00F9DA;
+}
+ .logo_pic{
+ 	position: absolute;
+	top: 9%;
+  left: 25px;
+  height: 45px;
+  weight: 40px;
+ }
+ .Glavnaya{
+	position: absolute;
+	top: 28%;
+  left: 9%;
+}
+.Voiti{
+	position: absolute;
+	top: 28%;
+  left: 16%;
+}
+.Kontaktu{
+	position: absolute;
+	top: 28%;
+  left:22%;
+}
+.Lichnui_kabinet{
+	position: absolute;
+	top: 28%;
+  left: 30%;
+}
+.Yslygi{
+	position: absolute;
+	top: 28%;
+  left: 42%;
+}
+.Telephone{
+	position: absolute;
+	top: 38%;
+  left: 72%;
+  font-size: 16px;
+}
+h1{
+	padding-top: 100px;
+	color: #fff;
+}
+.Zagolovok{
+	text-align: center;
+}
+
+.photo{
+	width: 350px;
+}
+.lot{
+	position: absolute;
+top: 29%;
+left: 150px;
+height: 45px;
+weight: 40px;
+
+}
+.lot1{
+	position: absolute;
+top: 29%;
+left: 770px;
+height: 45px;
+weight: 40px;
+
+}
+.lot2{
+	position: absolute;
+top: 29%;
+left: 1400px;
+height: 45px;
+weight: 40px;
+
+}
+.buy{
+border-width: medium;
+	border-style: ridge;
+	border-radius: 35px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	 font: 400 17px system-ui;
+	 color: lightblue;
+}

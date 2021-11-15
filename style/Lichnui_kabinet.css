@@ -1,1 +1,128 @@
-Кто прочитал - тот не какашка
+body{
+  background-image: url(../pictures/oboi.jpg) !important;
+
+}
+
+header{
+	position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+	color: #fff;  
+	height: 60px;
+	font-family: Arial;
+    font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+	color: #00F9DA;
+}
+
+.Glavnaya{
+	position: absolute;
+	top: 28%;
+  left: 9%;
+}
+.Voiti{
+	position: absolute;
+	top: 28%;
+  left: 16%;
+}
+.Kontaktu{
+	position: absolute;
+	top: 28%;
+  left:22%;
+}
+.Lichnui_kabinet{
+	position: absolute;
+	top: 28%;
+  left: 30%;
+}
+.Yslygi{
+	position: absolute;
+	top: 28%;
+  left: 42%;
+}
+.Telephone{
+	position: absolute;
+	top: 38%;
+  left: 72%;
+  font-size: 16px;
+}
+.Forma {
+	border-width: medium;
+	border-style: double;
+	border-color: mediumpurple;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+
+}
+.Information{
+text-align: center;
+}
+h1{
+	color: #fff;
+	padding-left: 600px;
+	padding-right: 600px;
+	padding-top: 100px;
+
+}
+  .pole {
+      display: block;
+      width: 500px;
+      height: calc(2.25rem + 2px);
+      padding: 0.375rem 0.75rem;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.5;
+      color: #212529;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #bdbdbd;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    .pole::placeholder {
+      color: #212529;
+      opacity: 0.4;
+    }
+
+    .pole:focus {
+      color: #212529;
+      background-color: #fff;
+      border-color: #bdbdbd;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+    }
+
+        .Save {
+    	border-width: medium;
+	border-style: ridge;
+	border-radius: 35px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	 font: 400 17px system-ui;
+	  color: lightblue;
+    }
+    .savesave{
+    	padding-left: 230px;
+    }
+    .Feedback{
+    	text-align: center;
+    }
+    .logo_pic{
+ 	position: absolute;
+	top: 9%;
+  left: 25px;
+  height: 45px;
+  weight: 40px;
+ }
