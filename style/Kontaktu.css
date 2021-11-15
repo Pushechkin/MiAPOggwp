@@ -1,1 +1,134 @@
-Кто прочитал - тот не какашка
+body{
+  background-image: url(../pictures/oboi.jpg) !important;
+
+}
+iframe{
+	position: absolute;
+	top: 20%;
+    left: 5%;
+    height: 70%;
+    
+}
+header{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	color: #1589FF;
+	height: 60px;
+	font-family: Arial;
+    font-size: 20px;
+}
+a{
+	text-decoration: none;
+	color: #1589FF;
+}
+a:hover{
+	text-decoration: none;
+	color: #00F9DA;
+}
+
+.Glavnaya{
+  position: absolute;
+  top: 28%;
+  left: 9%;
+}
+.Voiti{
+  position: absolute;
+  top: 28%;
+  left: 16%;
+}
+.Kontaktu{
+  position: absolute;
+  top: 28%;
+  left:22%;
+}
+.Lichnui_kabinet{
+  position: absolute;
+  top: 28%;
+  left: 30%;
+}
+.Yslygi{
+  position: absolute;
+  top: 28%;
+  left: 42%;
+}
+.Telephone{
+	position: absolute;
+	top: 34%;
+    left: 72%;
+    font-size: 16px;
+}
+
+.btn{
+	cursor: pointer;
+	position: absolute;
+	top: 15%;
+    left: 92%;
+    height: 40px;
+    weight: 60px;
+    background-color: #57FEFF;
+    border: 2px solid #57FEFF;
+}
+.btn:hover{
+	background-color: #3BB9FF;
+	border: 2px solid #3BB9FF;
+}
+
+ .logo_pic{
+ 	position: absolute;
+	top: 9%;
+    left: 25px;
+    height: 45px;
+    weight: 40px;
+ }
+ p{
+    padding-top: 80px;
+	font-size:20px;
+	 margin-left: 80px;
+	 color: #FFFFFF;
+ }
+h1{
+
+	font-size:27px;
+	 margin-left: 50%;
+	 margin-top: 4%; 
+	 color: #FFFFFF;
+
+}
+h2{
+font-size:27px;
+	 margin-left: 50%;
+	 color: #FFFFFF;
+}
+h3{
+font-size:27px;
+	 margin-left: 50%;
+	 color: #FFFFFF;
+}
+p1{
+font-size:20px;
+	 margin-left: 50%;
+	 color: #FFFFFF;
+}
+p2{
+font-size:20px;
+	 margin-left: 50%;
+	 color: #FFFFFF;
+}
+p3{
+font-size:20px;
+	 margin-left: 50%;
+	 color: #FFFFFF;
+}
+p4{
+font-size:20px;
+	 margin-left: 50%;
+	 color: #FFFFFF;	
+}
+p5{
+	font-size:20px;
+	 margin-left: 50%;
+	 color: #FFFFFF;
+    
+}

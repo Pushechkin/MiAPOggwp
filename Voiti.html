@@ -1,1 +1,66 @@
-Кто прочитал - тот какашка
+
+<!DOCTYPE html>
+<html html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="pictures/kot.jpg" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="style/Voiti.css">
+	<title>KotIKot - всё о котиках</title>
+</head>
+
+	</head>
+    <body>
+      <header>
+            <img src = "pictures/logo.png" class = "logo_pic">
+        <div class = "Glavnaya"><a href = "Glavnaya.html">Главная</a></div>
+            <div class = "Voiti"><a href = "Voiti.html">Войти</a></div>
+        <div class = "Kontaktu"><a href = "Kontaktu.html">Контакты</a></div>
+        <div class = "Lichnui_kabinet"><a href = "Lichnui_kabinet.html">Личный кабинет</a></div>
+        <div class = "Yslygi"><a href = "Yslygi.html">Услуги</a></div>
+            <img src = "pictures/logo.png" class = "logo_pic">
+            <div class = "Telephone">Телефон компании: +7 918 000 00 00</div>
+            <input type="button" class="btn" value="Заказать звонок">
+      </header>
+
+<center>
+    <h1>Регистрация пользователя</h1>
+    <br>
+  <p><strong>Фамилия Имя Отчество:</strong>
+  	<br>
+    <input type="text"pattern="[А-Яа-яЁё]{4,}"></p>
+     <br>
+  <p><strong>Логин:</strong>
+  		<br>
+    <input name="login" required></p>
+     <br>
+     <p><strong>E-mail:</strong> 
+     		<br>
+    <input type="email" required pattern="[ A-Za-z]{4,}"></p>
+     <br>
+   <p><strong>Пароль:</strong> 
+   		<br>
+    <input type="password" required></p>
+    	<br>
+    <p><strong>Повторите пароль:</strong>
+    	<br> 
+    <input type="password" required></p>
+    <br>
+    <input type="checkbox" id="politics" onclick="check();" value="" autocomplete="off"/>
+<p1>Я даю</p1> <a href="https://r64.fssp.gov.ru/zakon_person_dannie/#:~:text=Статья%209.%20Согласие%20субъекта%20персональных,быть%20отозвано%20субъектом%20персональных%20данных">согласие на обработку персональных данных.</a>
+<br>
+<br>
+<input type="submit" name="submit" class="submit"  value="Отправить" />
+
+<script>
+function check() {
+var submit = document.getElementsByName('submit')[0];
+if (document.getElementById('politics').checked)
+submit.disabled = '';
+else
+submit.disabled = 'disabled';
+}
+</script>
+  </center>
+
+
+

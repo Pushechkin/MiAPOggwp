@@ -1,1 +1,131 @@
-Кто прочитал - тот не какашка
+body{
+  background-image: url(../pictures/oboi.jpg) !important;
+
+}
+input[type=text]{
+  width: 30%;
+  padding: 15px;
+ margin: 0px 0 -4px 0;
+  display: inline-block;
+  border: none;
+  background: #FFFF88;
+}
+p1{
+   color: #FFFFFF;
+}
+h1{
+  color: #FFFFFF;
+  font-size: 30px;
+}
+p{
+  color: #FFFFFF;
+  font-size:16,5px;
+}
+input[name=login]{
+  width: 30%;
+  padding: 15px;
+margin: 0px 0 -4px 0;
+  display: inline-block;
+  border: none;
+  background: #FFFF88;
+}
+input[type=password]{
+  width: 30%;
+  padding: 15px;
+   margin: 0px 0 -4px 0;
+  display: inline-block;
+  border: none;
+  background: #FFFF88;
+}
+ input[type=email]{
+  width: 30%;
+  padding: 15px;
+  margin: 0px 0 -4px 0;
+  display: inline-block;
+  border: none;
+  background: #FFFF88;
+}
+.politics{
+
+}
+
+
+
+h1{
+	padding-top: 55px;
+	font-size:20px;
+}
+
+header{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	color: #1589FF;
+	height: 60px;
+	font-family: Arial;
+    font-size: 20px;
+}
+a{
+	text-decoration: none;
+	color: #1589FF;
+}
+a:hover{
+  text-decoration: none;
+  color: #00F9DA;
+}
+
+.Glavnaya{
+  position: absolute;
+  top: 28%;
+  left: 9%;
+}
+.Voiti{
+  position: absolute;
+  top: 28%;
+  left: 16%;
+}
+.Kontaktu{
+  position: absolute;
+  top: 28%;
+  left:22%;
+}
+.Lichnui_kabinet{
+  position: absolute;
+  top: 28%;
+  left: 30%;
+}
+.Yslygi{
+  position: absolute;
+  top: 28%;
+  left: 42%;
+}
+.Telephone{
+	position: absolute;
+	top: 34%;
+    left: 72%;
+    font-size: 16px;
+}
+
+.btn{
+	cursor: pointer;
+	position: absolute;
+	top: 15%;
+    left: 92%;
+    height: 40px;
+    weight: 60px;
+    background-color: #57FEFF;
+    border: 2px solid #57FEFF;
+}
+.btn:hover{
+	background-color: #3BB9FF;
+	border: 2px solid #3BB9FF;
+}
+
+ .logo_pic{
+ 	position: absolute;
+	top: 9%;
+    left: 25px;
+    height: 45px;
+    weight: 40px;
+ }
